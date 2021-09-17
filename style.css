@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    margin-top: 40px;
     background-color: rgba(0, 0, 0, 0.1);
 }
 
@@ -36,7 +37,7 @@ body {
 
 #date {
     position: absolute;
-    bottom: 10px;
+    top: 4px;
     left: 10px;
     color: #fff;
     font-size: 25px;
@@ -53,18 +54,13 @@ body {
     border: indianred;
 }
 
-
-/*content::-webkit-scrollbar {
-    display: none;
-}*/
-
 .content ul {
     padding: 0%;
     margin: 0;
 }
 
 .item {
-    width: 380px;
+    max-width: 363px;
     height: 45px;
     min-height: 45px;
     position: relative;
@@ -130,16 +126,17 @@ body {
 .add-to-do i {
     position: absolute;
     font-size: 30px;
+    left: 345px;
+    padding-top: 6px;
     color: cornflowerblue;
 }
 
 .add-to-do input {
     position: absolute;
-    left: 50px;
     height: 35px;
     width: 310px;
     background-color: transparent;
     border: none;
     font-size: 20px;
-    padding-left: 10px;
+    padding-right: 10px;
 }
