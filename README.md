@@ -13,4 +13,4 @@ A simple and intuitive web-based application that allows users to manage their d
 
 - **HTML5**: Structure of the application.
 - **CSS3**: Styling and layout.
-- **JavaScript (ES6)**: Functionality and interactivity.
+- **JavaScript**: Functionality and interactivity.
